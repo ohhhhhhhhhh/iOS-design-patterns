@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A51B5E51F1600A5002FA2A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B5E41F1600A5002FA2A4 /* main.m */; };
+		1A51B5E81F1600A5002FA2A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B5E71F1600A5002FA2A4 /* AppDelegate.m */; };
+		1A51B5EB1F1600A5002FA2A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B5EA1F1600A5002FA2A4 /* ViewController.m */; };
+		1A51B5EE1F1600A5002FA2A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A51B5EC1F1600A5002FA2A4 /* Main.storyboard */; };
+		1A51B5F01F1600A5002FA2A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A51B5EF1F1600A5002FA2A4 /* Assets.xcassets */; };
+		1A51B5F31F1600A5002FA2A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A51B5F11F1600A5002FA2A4 /* LaunchScreen.storyboard */; };
+		1A51B5FE1F1600A5002FA2A4 /* _1_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B5FD1F1600A5002FA2A4 /* _1_______Tests.m */; };
+		1A51B6091F1600A5002FA2A4 /* _1_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B6081F1600A5002FA2A4 /* _1_______UITests.m */; };
+		1A51B6251F1604C4002FA2A4 /* ZYCalculateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B6241F1604C4002FA2A4 /* ZYCalculateFactory.m */; };
+		1A51B6281F16070D002FA2A4 /* ZYCalculateAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B6271F16070D002FA2A4 /* ZYCalculateAdd.m */; };
+		1A51B62B1F16071A002FA2A4 /* ZYCalculateMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B62A1F16071A002FA2A4 /* ZYCalculateMinus.m */; };
+		1A51B62E1F16073D002FA2A4 /* ZYCalculateMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B62D1F16073D002FA2A4 /* ZYCalculateMultiply.m */; };
+		1A51B6311F16074D002FA2A4 /* ZYCalculateDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B6301F16074D002FA2A4 /* ZYCalculateDivide.m */; };
+		1A51B6341F160D13002FA2A4 /* ZYProtocolCalculate.h in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B6331F160D13002FA2A4 /* ZYProtocolCalculate.h */; };
+		1A51B6371F160D98002FA2A4 /* ZYProtocolCalculateAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B6361F160D98002FA2A4 /* ZYProtocolCalculateAdd.m */; };
+		1A51B63A1F160DA9002FA2A4 /* ZYProtocolCalculateMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B6391F160DA9002FA2A4 /* ZYProtocolCalculateMinus.m */; };
+		1A51B63D1F160DC0002FA2A4 /* ZYProtocolCalculateMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B63C1F160DC0002FA2A4 /* ZYProtocolCalculateMultiply.m */; };
+		1A51B6401F160DD1002FA2A4 /* ZYProtocolCalculateDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B63F1F160DD1002FA2A4 /* ZYProtocolCalculateDivide.m */; };
+		1A51B6431F160F5A002FA2A4 /* ZYProtocolCalculateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B6421F160F5A002FA2A4 /* ZYProtocolCalculateFactory.m */; };
+		1A51B69D1F1644E2002FA2A4 /* ZYCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B69C1F1644E2002FA2A4 /* ZYCalculate.m */; };
+		1A51B6A01F16456E002FA2A4 /* ZYCalculateNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51B69F1F16456E002FA2A4 /* ZYCalculateNormal.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A51B5FA1F1600A5002FA2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A51B5D81F1600A5002FA2A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A51B5DF1F1600A5002FA2A4;
+			remoteInfo = "01-简单工厂模式";
+		};
+		1A51B6051F1600A5002FA2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A51B5D81F1600A5002FA2A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A51B5DF1F1600A5002FA2A4;
+			remoteInfo = "01-简单工厂模式";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A51B5E01F1600A5002FA2A4 /* 01-简单工厂模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-简单工厂模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A51B5E41F1600A5002FA2A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A51B5E61F1600A5002FA2A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A51B5E71F1600A5002FA2A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A51B5E91F1600A5002FA2A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A51B5EA1F1600A5002FA2A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A51B5ED1F1600A5002FA2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A51B5EF1F1600A5002FA2A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A51B5F21F1600A5002FA2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A51B5F41F1600A5002FA2A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A51B5F91F1600A5002FA2A4 /* 01-简单工厂模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-简单工厂模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A51B5FD1F1600A5002FA2A4 /* _1_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_______Tests.m"; sourceTree = "<group>"; };
+		1A51B5FF1F1600A5002FA2A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A51B6041F1600A5002FA2A4 /* 01-简单工厂模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-简单工厂模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A51B6081F1600A5002FA2A4 /* _1_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_______UITests.m"; sourceTree = "<group>"; };
+		1A51B60A1F1600A5002FA2A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A51B6231F1604C4002FA2A4 /* ZYCalculateFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCalculateFactory.h; sourceTree = "<group>"; };
+		1A51B6241F1604C4002FA2A4 /* ZYCalculateFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCalculateFactory.m; sourceTree = "<group>"; };
+		1A51B6261F16070D002FA2A4 /* ZYCalculateAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCalculateAdd.h; sourceTree = "<group>"; };
+		1A51B6271F16070D002FA2A4 /* ZYCalculateAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCalculateAdd.m; sourceTree = "<group>"; };
+		1A51B6291F16071A002FA2A4 /* ZYCalculateMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCalculateMinus.h; sourceTree = "<group>"; };
+		1A51B62A1F16071A002FA2A4 /* ZYCalculateMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCalculateMinus.m; sourceTree = "<group>"; };
+		1A51B62C1F16073D002FA2A4 /* ZYCalculateMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCalculateMultiply.h; sourceTree = "<group>"; };
+		1A51B62D1F16073D002FA2A4 /* ZYCalculateMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCalculateMultiply.m; sourceTree = "<group>"; };
+		1A51B62F1F16074D002FA2A4 /* ZYCalculateDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCalculateDivide.h; sourceTree = "<group>"; };
+		1A51B6301F16074D002FA2A4 /* ZYCalculateDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCalculateDivide.m; sourceTree = "<group>"; };
+		1A51B6331F160D13002FA2A4 /* ZYProtocolCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYProtocolCalculate.h; sourceTree = "<group>"; };
+		1A51B6351F160D98002FA2A4 /* ZYProtocolCalculateAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYProtocolCalculateAdd.h; sourceTree = "<group>"; };
+		1A51B6361F160D98002FA2A4 /* ZYProtocolCalculateAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYProtocolCalculateAdd.m; sourceTree = "<group>"; };
+		1A51B6381F160DA9002FA2A4 /* ZYProtocolCalculateMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYProtocolCalculateMinus.h; sourceTree = "<group>"; };
+		1A51B6391F160DA9002FA2A4 /* ZYProtocolCalculateMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYProtocolCalculateMinus.m; sourceTree = "<group>"; };
+		1A51B63B1F160DC0002FA2A4 /* ZYProtocolCalculateMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYProtocolCalculateMultiply.h; sourceTree = "<group>"; };
+		1A51B63C1F160DC0002FA2A4 /* ZYProtocolCalculateMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYProtocolCalculateMultiply.m; sourceTree = "<group>"; };
+		1A51B63E1F160DD1002FA2A4 /* ZYProtocolCalculateDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYProtocolCalculateDivide.h; sourceTree = "<group>"; };
+		1A51B63F1F160DD1002FA2A4 /* ZYProtocolCalculateDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYProtocolCalculateDivide.m; sourceTree = "<group>"; };
+		1A51B6411F160F5A002FA2A4 /* ZYProtocolCalculateFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYProtocolCalculateFactory.h; sourceTree = "<group>"; };
+		1A51B6421F160F5A002FA2A4 /* ZYProtocolCalculateFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYProtocolCalculateFactory.m; sourceTree = "<group>"; };
+		1A51B69B1F1644E2002FA2A4 /* ZYCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCalculate.h; sourceTree = "<group>"; };
+		1A51B69C1F1644E2002FA2A4 /* ZYCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCalculate.m; sourceTree = "<group>"; };
+		1A51B69E1F16456E002FA2A4 /* ZYCalculateNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCalculateNormal.h; sourceTree = "<group>"; };
+		1A51B69F1F16456E002FA2A4 /* ZYCalculateNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCalculateNormal.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A51B5DD1F1600A5002FA2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51B5F61F1600A5002FA2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51B6011F1600A5002FA2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A51B5D71F1600A5002FA2A4 = {
+			isa = PBXGroup;
+			children = (
+				1A51B5E21F1600A5002FA2A4 /* 01-简单工厂模式 */,
+				1A51B5FC1F1600A5002FA2A4 /* 01-简单工厂模式Tests */,
+				1A51B6071F1600A5002FA2A4 /* 01-简单工厂模式UITests */,
+				1A51B5E11F1600A5002FA2A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A51B5E11F1600A5002FA2A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A51B5E01F1600A5002FA2A4 /* 01-简单工厂模式.app */,
+				1A51B5F91F1600A5002FA2A4 /* 01-简单工厂模式Tests.xctest */,
+				1A51B6041F1600A5002FA2A4 /* 01-简单工厂模式UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A51B5E21F1600A5002FA2A4 /* 01-简单工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				1A51B6321F160CF1002FA2A4 /* ProtocolCase */,
+				1A51B6221F1604B4002FA2A4 /* FactoryCase */,
+				1A51B61E1F160492002FA2A4 /* NormalCase */,
+				1A51B5E61F1600A5002FA2A4 /* AppDelegate.h */,
+				1A51B5E71F1600A5002FA2A4 /* AppDelegate.m */,
+				1A51B5E91F1600A5002FA2A4 /* ViewController.h */,
+				1A51B5EA1F1600A5002FA2A4 /* ViewController.m */,
+				1A51B5EC1F1600A5002FA2A4 /* Main.storyboard */,
+				1A51B5EF1F1600A5002FA2A4 /* Assets.xcassets */,
+				1A51B5F11F1600A5002FA2A4 /* LaunchScreen.storyboard */,
+				1A51B5F41F1600A5002FA2A4 /* Info.plist */,
+				1A51B5E31F1600A5002FA2A4 /* Supporting Files */,
+			);
+			path = "01-简单工厂模式";
+			sourceTree = "<group>";
+		};
+		1A51B5E31F1600A5002FA2A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A51B5E41F1600A5002FA2A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A51B5FC1F1600A5002FA2A4 /* 01-简单工厂模式Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A51B5FD1F1600A5002FA2A4 /* _1_______Tests.m */,
+				1A51B5FF1F1600A5002FA2A4 /* Info.plist */,
+			);
+			path = "01-简单工厂模式Tests";
+			sourceTree = "<group>";
+		};
+		1A51B6071F1600A5002FA2A4 /* 01-简单工厂模式UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A51B6081F1600A5002FA2A4 /* _1_______UITests.m */,
+				1A51B60A1F1600A5002FA2A4 /* Info.plist */,
+			);
+			path = "01-简单工厂模式UITests";
+			sourceTree = "<group>";
+		};
+		1A51B61E1F160492002FA2A4 /* NormalCase */ = {
+			isa = PBXGroup;
+			children = (
+				1A51B69E1F16456E002FA2A4 /* ZYCalculateNormal.h */,
+				1A51B69F1F16456E002FA2A4 /* ZYCalculateNormal.m */,
+			);
+			path = NormalCase;
+			sourceTree = "<group>";
+		};
+		1A51B6221F1604B4002FA2A4 /* FactoryCase */ = {
+			isa = PBXGroup;
+			children = (
+				1A51B6231F1604C4002FA2A4 /* ZYCalculateFactory.h */,
+				1A51B6241F1604C4002FA2A4 /* ZYCalculateFactory.m */,
+				1A51B6261F16070D002FA2A4 /* ZYCalculateAdd.h */,
+				1A51B6271F16070D002FA2A4 /* ZYCalculateAdd.m */,
+				1A51B6291F16071A002FA2A4 /* ZYCalculateMinus.h */,
+				1A51B62A1F16071A002FA2A4 /* ZYCalculateMinus.m */,
+				1A51B62C1F16073D002FA2A4 /* ZYCalculateMultiply.h */,
+				1A51B62D1F16073D002FA2A4 /* ZYCalculateMultiply.m */,
+				1A51B62F1F16074D002FA2A4 /* ZYCalculateDivide.h */,
+				1A51B6301F16074D002FA2A4 /* ZYCalculateDivide.m */,
+				1A51B69B1F1644E2002FA2A4 /* ZYCalculate.h */,
+				1A51B69C1F1644E2002FA2A4 /* ZYCalculate.m */,
+			);
+			path = FactoryCase;
+			sourceTree = "<group>";
+		};
+		1A51B6321F160CF1002FA2A4 /* ProtocolCase */ = {
+			isa = PBXGroup;
+			children = (
+				1A51B6331F160D13002FA2A4 /* ZYProtocolCalculate.h */,
+				1A51B6351F160D98002FA2A4 /* ZYProtocolCalculateAdd.h */,
+				1A51B6361F160D98002FA2A4 /* ZYProtocolCalculateAdd.m */,
+				1A51B6381F160DA9002FA2A4 /* ZYProtocolCalculateMinus.h */,
+				1A51B6391F160DA9002FA2A4 /* ZYProtocolCalculateMinus.m */,
+				1A51B63B1F160DC0002FA2A4 /* ZYProtocolCalculateMultiply.h */,
+				1A51B63C1F160DC0002FA2A4 /* ZYProtocolCalculateMultiply.m */,
+				1A51B63E1F160DD1002FA2A4 /* ZYProtocolCalculateDivide.h */,
+				1A51B63F1F160DD1002FA2A4 /* ZYProtocolCalculateDivide.m */,
+				1A51B6411F160F5A002FA2A4 /* ZYProtocolCalculateFactory.h */,
+				1A51B6421F160F5A002FA2A4 /* ZYProtocolCalculateFactory.m */,
+			);
+			path = ProtocolCase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A51B5DF1F1600A5002FA2A4 /* 01-简单工厂模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A51B60D1F1600A5002FA2A4 /* Build configuration list for PBXNativeTarget "01-简单工厂模式" */;
+			buildPhases = (
+				1A51B5DC1F1600A5002FA2A4 /* Sources */,
+				1A51B5DD1F1600A5002FA2A4 /* Frameworks */,
+				1A51B5DE1F1600A5002FA2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-简单工厂模式";
+			productName = "01-简单工厂模式";
+			productReference = 1A51B5E01F1600A5002FA2A4 /* 01-简单工厂模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A51B5F81F1600A5002FA2A4 /* 01-简单工厂模式Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A51B6101F1600A5002FA2A4 /* Build configuration list for PBXNativeTarget "01-简单工厂模式Tests" */;
+			buildPhases = (
+				1A51B5F51F1600A5002FA2A4 /* Sources */,
+				1A51B5F61F1600A5002FA2A4 /* Frameworks */,
+				1A51B5F71F1600A5002FA2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A51B5FB1F1600A5002FA2A4 /* PBXTargetDependency */,
+			);
+			name = "01-简单工厂模式Tests";
+			productName = "01-简单工厂模式Tests";
+			productReference = 1A51B5F91F1600A5002FA2A4 /* 01-简单工厂模式Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A51B6031F1600A5002FA2A4 /* 01-简单工厂模式UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A51B6131F1600A5002FA2A4 /* Build configuration list for PBXNativeTarget "01-简单工厂模式UITests" */;
+			buildPhases = (
+				1A51B6001F1600A5002FA2A4 /* Sources */,
+				1A51B6011F1600A5002FA2A4 /* Frameworks */,
+				1A51B6021F1600A5002FA2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A51B6061F1600A5002FA2A4 /* PBXTargetDependency */,
+			);
+			name = "01-简单工厂模式UITests";
+			productName = "01-简单工厂模式UITests";
+			productReference = 1A51B6041F1600A5002FA2A4 /* 01-简单工厂模式UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A51B5D81F1600A5002FA2A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zy;
+				TargetAttributes = {
+					1A51B5DF1F1600A5002FA2A4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3VDM45ZBNN;
+						ProvisioningStyle = Automatic;
+					};
+					1A51B5F81F1600A5002FA2A4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3VDM45ZBNN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A51B5DF1F1600A5002FA2A4;
+					};
+					1A51B6031F1600A5002FA2A4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3VDM45ZBNN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A51B5DF1F1600A5002FA2A4;
+					};
+				};
+			};
+			buildConfigurationList = 1A51B5DB1F1600A5002FA2A4 /* Build configuration list for PBXProject "01-简单工厂模式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A51B5D71F1600A5002FA2A4;
+			productRefGroup = 1A51B5E11F1600A5002FA2A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A51B5DF1F1600A5002FA2A4 /* 01-简单工厂模式 */,
+				1A51B5F81F1600A5002FA2A4 /* 01-简单工厂模式Tests */,
+				1A51B6031F1600A5002FA2A4 /* 01-简单工厂模式UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A51B5DE1F1600A5002FA2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51B5F31F1600A5002FA2A4 /* LaunchScreen.storyboard in Resources */,
+				1A51B5F01F1600A5002FA2A4 /* Assets.xcassets in Resources */,
+				1A51B5EE1F1600A5002FA2A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51B5F71F1600A5002FA2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51B6021F1600A5002FA2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A51B5DC1F1600A5002FA2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51B6431F160F5A002FA2A4 /* ZYProtocolCalculateFactory.m in Sources */,
+				1A51B5EB1F1600A5002FA2A4 /* ViewController.m in Sources */,
+				1A51B62E1F16073D002FA2A4 /* ZYCalculateMultiply.m in Sources */,
+				1A51B6311F16074D002FA2A4 /* ZYCalculateDivide.m in Sources */,
+				1A51B6A01F16456E002FA2A4 /* ZYCalculateNormal.m in Sources */,
+				1A51B63A1F160DA9002FA2A4 /* ZYProtocolCalculateMinus.m in Sources */,
+				1A51B5E81F1600A5002FA2A4 /* AppDelegate.m in Sources */,
+				1A51B63D1F160DC0002FA2A4 /* ZYProtocolCalculateMultiply.m in Sources */,
+				1A51B6281F16070D002FA2A4 /* ZYCalculateAdd.m in Sources */,
+				1A51B69D1F1644E2002FA2A4 /* ZYCalculate.m in Sources */,
+				1A51B6401F160DD1002FA2A4 /* ZYProtocolCalculateDivide.m in Sources */,
+				1A51B62B1F16071A002FA2A4 /* ZYCalculateMinus.m in Sources */,
+				1A51B5E51F1600A5002FA2A4 /* main.m in Sources */,
+				1A51B6251F1604C4002FA2A4 /* ZYCalculateFactory.m in Sources */,
+				1A51B6341F160D13002FA2A4 /* ZYProtocolCalculate.h in Sources */,
+				1A51B6371F160D98002FA2A4 /* ZYProtocolCalculateAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51B5F51F1600A5002FA2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51B5FE1F1600A5002FA2A4 /* _1_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51B6001F1600A5002FA2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51B6091F1600A5002FA2A4 /* _1_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A51B5FB1F1600A5002FA2A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A51B5DF1F1600A5002FA2A4 /* 01-简单工厂模式 */;
+			targetProxy = 1A51B5FA1F1600A5002FA2A4 /* PBXContainerItemProxy */;
+		};
+		1A51B6061F1600A5002FA2A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A51B5DF1F1600A5002FA2A4 /* 01-简单工厂模式 */;
+			targetProxy = 1A51B6051F1600A5002FA2A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A51B5EC1F1600A5002FA2A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A51B5ED1F1600A5002FA2A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A51B5F11F1600A5002FA2A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A51B5F21F1600A5002FA2A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A51B60B1F1600A5002FA2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A51B60C1F1600A5002FA2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A51B60E1F1600A5002FA2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3VDM45ZBNN;
+				INFOPLIST_FILE = "01-简单工厂模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ohhh.-1-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A51B60F1F1600A5002FA2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3VDM45ZBNN;
+				INFOPLIST_FILE = "01-简单工厂模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ohhh.-1-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A51B6111F1600A5002FA2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3VDM45ZBNN;
+				INFOPLIST_FILE = "01-简单工厂模式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ohhh.-1-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-简单工厂模式.app/01-简单工厂模式";
+			};
+			name = Debug;
+		};
+		1A51B6121F1600A5002FA2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3VDM45ZBNN;
+				INFOPLIST_FILE = "01-简单工厂模式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ohhh.-1-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-简单工厂模式.app/01-简单工厂模式";
+			};
+			name = Release;
+		};
+		1A51B6141F1600A5002FA2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3VDM45ZBNN;
+				INFOPLIST_FILE = "01-简单工厂模式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ohhh.-1-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-简单工厂模式";
+			};
+			name = Debug;
+		};
+		1A51B6151F1600A5002FA2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3VDM45ZBNN;
+				INFOPLIST_FILE = "01-简单工厂模式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ohhh.-1-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-简单工厂模式";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A51B5DB1F1600A5002FA2A4 /* Build configuration list for PBXProject "01-简单工厂模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51B60B1F1600A5002FA2A4 /* Debug */,
+				1A51B60C1F1600A5002FA2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A51B60D1F1600A5002FA2A4 /* Build configuration list for PBXNativeTarget "01-简单工厂模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51B60E1F1600A5002FA2A4 /* Debug */,
+				1A51B60F1F1600A5002FA2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A51B6101F1600A5002FA2A4 /* Build configuration list for PBXNativeTarget "01-简单工厂模式Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51B6111F1600A5002FA2A4 /* Debug */,
+				1A51B6121F1600A5002FA2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A51B6131F1600A5002FA2A4 /* Build configuration list for PBXNativeTarget "01-简单工厂模式UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51B6141F1600A5002FA2A4 /* Debug */,
+				1A51B6151F1600A5002FA2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A51B5D81F1600A5002FA2A4 /* Project object */;
+}
